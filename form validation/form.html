@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+
+
+    <div class="container">
+        <fieldset> <legend>Fill The Form</legend>
+    <form>
+<label for="fname" name="fname"   > Name  </label>
+<input type="text" name="fname" id="fname"   > <br> <br>
+<p id="demo"></p>
+<label for="">Email</label>
+
+<input type="email" name="email" id="email"   ><br><br>
+
+<label for="pass" name="pass">Password</label>
+<input type="password" name="pass" id="pass"  ><br><br>
+
+<label  for="gender" name="gender" > gender </label>
+
+male <input type="radio" for="male" name="gender" id="male"  value="male" >
+female <input type="radio" for="female" name="gender" id="female"  value="female"><br>
+
+<label for="fav" >sports</label>
+<input type="checkbox" name="fav"   value="tennis"  id="tennis"> tennis
+<input type="checkbox" name="fav"   value="football"  id="football">football
+<input type="checkbox" name="fav"   value="running"  id="running">running<br><br>
+
+<label for="country" >country</label>
+<select id="country" name="country">
+
+    <option value="egypt">egypt </option>
+    <option value="london">london</option>
+    <option value="turkia">turkia</option>
+</select><br><br>
+</form>
+<button  onclick="validate(event)" >submit</button>
+<button>reset</button>
+
+<p id="text"> </p>
+</fieldset>
+</div>
+
+
+    <script src="form.js"></script>
+</body>
+</html>

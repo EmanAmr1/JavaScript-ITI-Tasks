@@ -1,0 +1,26 @@
+.game {
+    position: relative;
+    margin: 20px 350px;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 2px solid yellow;
+    display: block;
+
+}
+
+
+
+#slideshow img {
+    display: none;
+}
+
+#slideshow img:first-child {
+    display: block;
+}
